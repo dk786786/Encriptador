@@ -1,0 +1,18 @@
+Known_user =["Harsh","muba","samantha","vijay"]
+
+while True:
+    print("hi! Iam travis")
+    name = input("what is ur name?: ").strip().capitalize()
+
+
+    if name in Known_user:
+        print("Hello {}".format(name))
+        remove=input("un name ah edukanum ah ? system la irudhu (y/n):")
+        if remove == "y" or remove == "Y":
+            print(known_user)
+            known_user.remove(name)
+            print(known_user)
+        
+    
+    else:
+        print("otha ni ila list la")
